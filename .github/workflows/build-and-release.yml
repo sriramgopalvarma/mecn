@@ -32,7 +32,7 @@ jobs:
           dotnet-version: "8.0.x"
 
       - name: Restore .NET
-        run: dotnet restore MeconApp.csproj
+        run: dotnet restore MeconApp.csproj --runtime win-x64
 
       - name: Publish .NET for Windows x64
         run: dotnet publish MeconApp.csproj --configuration Release --runtime win-x64 --self-contained true --output publish/backend --no-restore

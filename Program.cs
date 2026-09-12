@@ -3,7 +3,7 @@ var app = builder.Build();
 
 app.MapGet("/api/status", () => new
 {
-    Message = "Hello from the .NET backend",
+    Message = "Hello from the .NET backend API",
     Runtime = ".NET 8"
 });
 

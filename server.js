@@ -34,7 +34,7 @@ const page = `<!doctype html>
     #status { min-height: 1.5em; color: #53636e; }
   </style>
 </head>
-<body><main><h1>Mecon App neww</h1><p>Node.js UI + .NET backend</p><p id="status">Loading backend status...</p></main>
+<body><main><h1>Mecon App neww two</h1><p>Node.js UI + .NET backend</p><p id="status">Loading backend status...</p></main>
 <script>
   fetch('/api/status')
     .then(response => response.json())

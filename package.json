@@ -1,0 +1,14 @@
+{
+  "name": "mecon-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small Node.js web app",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build:backend": "dotnet publish -c Release -r win-x64 --self-contained true -o backend",
+    "start": "node server.js"
+  }
+}
